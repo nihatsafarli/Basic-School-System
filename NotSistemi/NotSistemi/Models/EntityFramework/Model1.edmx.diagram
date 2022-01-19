@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="979692c3df3b43b792eedae7ae65e8e4" Name="Diagram1">
+        <EntityTypeShape EntityType="DbMvcOkulModel.TBL_DERSLER" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcOkulModel.TBL_KULUPLER" Width="1.5" PointX="1.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcOkulModel.TBL_NOTLAR" Width="1.5" PointX="5.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcOkulModel.TBL_OGRENCILER" Width="1.5" PointX="3.25" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="DbMvcOkulModel.FK_TBL_NOTLAR_TBL_DERSLER" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcOkulModel.FK_TBL_OGRENCILER_TBL_KULUPLER" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcOkulModel.FK_TBL_NOTLAR_TBL_OGRENCILER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
